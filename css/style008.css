@@ -1,0 +1,86 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.vogue
+{
+    display: flex;
+    justify-content: center;
+}
+.vogue img
+{
+    max-width: 700px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.jujuba
+{
+    
+    background-image: url("/Teste/jujuba.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 700px;
+    height: 700px;
+    margin: auto;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+}
+.news
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+
+}
+
+.news2
+{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    line-height: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 1px rgb(73, 72, 72);
+    
+}
+
+.news2 h2
+{
+    color: whitesmoke;
+}
+
+.news3
+{
+    width: 200px;
+    height: 200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 10px;
+    line-height: 22px;
+    text-shadow: 1px 1px 1px black;
+    color: rgb(229, 201, 149)
+    
+}
+
+.news4
+{
+    width: 200px;
+    height: 200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 10px;
+    line-height: 22px;
+    text-shadow: 1px 1px 1px black;
+    color: white
+    
+    
+}
