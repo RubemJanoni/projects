@@ -1,0 +1,97 @@
+body,ul,li
+{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.header
+{
+    background-color: #1d1e1a;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    
+
+}
+
+.menu
+{
+    display: flex;
+    
+}
+
+.menu li
+{
+    margin-left: 10px;
+}
+
+.menu li a
+{
+    display: block;
+    padding: 10px;
+    
+}
+
+
+
+img
+{
+    width: 80px;
+    margin: 0px;
+    padding: 0px;
+}
+.galeria
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+
+}
+
+.galeria div
+{
+    width: 300px;
+    height: 200px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgba(250, 235, 215, 0.541);
+    border-radius: 15px;
+
+}
+
+.galeria img
+{
+    width: 250px;
+    height: auto;
+    
+}
+
+#teniserrado img
+{
+    width: 250px;
+    height: 150px;
+}
+    
+footer
+{
+    background-color: #1d1e1a;
+    color: aliceblue;
+    text-align: center;
+}
+
