@@ -232,7 +232,7 @@ button
 .slider
 {
     
-    margin: 0 auto;
+    margin: auto;
     width: 600px;
     height: 400px;
     overflow: hidden;
