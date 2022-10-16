@@ -85,26 +85,31 @@ h2
     
 }
 
-form
-{
-    display: flex;
-    flex-direction: column;
-}
+
+
 
 label
 {
     margin-bottom: 15px;
+    margin-left: 5px;    
     text-align: left;
 }
 
 .formulario
 {
-    width: 400px;
+    width: 350px;
     padding: 20px;
     margin: auto;    
     text-align: center;
     background-color: #34495e;
     border-radius: 8px;
+}
+
+.formulario form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
