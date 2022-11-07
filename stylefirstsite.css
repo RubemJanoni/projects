@@ -9,6 +9,7 @@ body
     font-family: 'kanit', sans-serif;
     background-color: #212226;
     color: #a4abbd;
+    overflow-x: hidden;
 }
 
 header
@@ -28,6 +29,11 @@ nav
     margin-bottom: 50px;  
     
 
+}
+
+.bannercalc
+{
+    width: 100%;
 }
 
 nav a
@@ -167,11 +173,13 @@ footer
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 500px;
+    width: 400px;
     padding: 10px;
     background-color: #34495e;
     border-radius: 10px;
     margin: auto;
+    overflow: hidden;
+    
     
 }
 
